@@ -2,6 +2,6 @@
 int main (){
     char str[50];
     printf("Enter a string: ");
-    scanf("%s",str);
-    printf("You entered: %s\n",str);
+    scanf("%[^\n]",str);
+    printf("You entered: %s",str);
 }
