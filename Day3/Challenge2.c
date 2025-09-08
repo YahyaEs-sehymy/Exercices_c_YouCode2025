@@ -6,7 +6,8 @@ int main() {
     int length = 0;   
 
     printf("Entrez une chaine : ");
-    fgets(str, sizeof(str), stdin);   
+        scanf("%[^\n]",str);
+
     while (str[i] != '\0') {   
         if (str[i] != '\n') { 
             length++;
